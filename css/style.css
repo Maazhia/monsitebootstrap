@@ -61,7 +61,7 @@ a, a:hover  {
 }
 
 .menu a:hover {
-    color: #000000;
+    color: #ff0000;
 }
 
 #btn-top {
@@ -155,9 +155,4 @@ h1 {
     box-shadow: none;
     background-color: #000000;
     text-align: center;
-}
-
-.img {
-   text-align: center;
-   background-color: #b9b9b9;
 }
