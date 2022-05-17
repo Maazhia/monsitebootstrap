@@ -123,6 +123,7 @@ a, a:hover {
 .portfolio .grid-item {
     height: 280px;
     background-color: #ff0000;
+    display: flex;
 }
 
 .footer {
@@ -135,6 +136,7 @@ a, a:hover {
     color: #ffffff;
     text-align: center;
 }
+
 
 
 
