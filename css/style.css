@@ -1,22 +1,15 @@
-@charset "UTF-8"; 
+@charset "UTF-8";
 
-/*font-family: 'Raleway', sans-serif; */
-/* bleu claire -> #3498DB */
-/* Orange -> #E74C3C */ 
-
-body html {
+body, html {
     padding: 0;
     margin: 0;
 }
-
 
 body {
     font-family: 'Raleway', sans-serif;
 }
 
-
-
-a, a:hover  {
+a, a:hover {
     text-decoration: none;
 }
 
@@ -25,22 +18,20 @@ a, a:hover  {
     padding: 0;
 }
 
+
+
 .separator {
-    height: 3px !important;
-    margin: 0 50% 1% 50%;
+    height: 3px;
     width: 5%;
     border: none;
     box-shadow: none;
     background-color: #ff0000;
-    text-align: center;
 }
 
-/* header */
 .header {
-    background-color: #000000;
-    height: 70px;
+    background-color: #ff0000;
+    height: 70 px;
     line-height: 70px;
-
 }
 
 .logo {
@@ -48,7 +39,7 @@ a, a:hover  {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 1px;
-    float: left;
+    float: Copyright (c) 2022 Copyright Holder All Rights Reserved
 }
 
 .menu {
@@ -61,98 +52,89 @@ a, a:hover  {
 }
 
 .menu a:hover {
-    color: #ff0000;
+    color: #000000;
 }
 
-#btn-top {
-    width: 35px;
-    height:35px;
-    color:whitesmoke;
-    background-color: rgb(0, 0, 0);
-    text-decoration: none;
-    position: fixed;
-    right:50px;
-    bottom : 50px;
-    font-size: 3rem;
-    text-align: center;
-    border-radius: .5rem;
-}
-
-#btn-top:hover {
-    width: 35px;
-    height:35px;
-    padding:0 !important;
-    color:whitesmoke;
-    background-color: rgb(0, 0, 0);
-    text-decoration: none;
-    position: fixed;
-    right:50px;
-    bottom : 50px;
-    font-size: 3rem;
-    text-align: center;
-    border-radius: .5rem;
-}
 
 .banner {
     width: 100%;
     max-width: 100%;
 }
 
+
 .ban {
     width: 100%;
-    max-width: 100%; 
+    max-width: 100%;
     position: relative;
 }
 
 .ban img {
-    width: 100%;
-    height: 380px;
-    max-width: 100%;
+      width: 100%;
+      max-width: 100%;
 }
+
 
 .inner-banner {
     position: absolute;
-    top: 280px;
+    top: 50%;
     width: 100%;
     text-align: center;
 }
 
 .inner-banner h1 {
-    color: #ffffff; 
-    text-shadow: 1px 1px 20px #000000;
+    color: #ff0000;
+    text-shadow: 1px 1px 20px #ffffff;
+}
+
+.inner-banner .btn-custom {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+.inner-banner .btn-custom:hover {
+    background-color: #000000;
 }
 
 
-.motivation {
-    background-color: #b9b9b9;
-    color: #000000;
+#about {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.about article{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.about article h2 {
+    text-align: center;
 }
 
 
+.portfolio {
+    background-color: #a7a7a7;
+    height: 100%;
+}
+
+#portfolio {
+    text-align: center;
+}
+
+.portfolio .grid-item {
+    height: 280px;
+    background-color: #ff0000;
+}
+
+.footer {
+    background-color: #000000;
+    display: block;
+    margin: 0 auto;
+}
 
 #contact {
     color: #ffffff;
     text-align: center;
 }
 
-*, ::before, ::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-h1 {
-    text-align: center;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 50px 0;
-}
 
-.separator {
-    height: 3px !important;
-    margin: 0 50% 1% 50%;
-    width: 5%;
-    border: none;
-    box-shadow: none;
-    background-color: #000000;
-    text-align: center;
-}
+
