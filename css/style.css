@@ -124,13 +124,13 @@ a, a:hover {
 }
 
 .footer {
-    background-color: #ff0000;
+    background-color: #ffffff;
     display: block;
     margin: 0 auto;
 }
 
 #contact {
-    color: #ffffff;
+    color: #000000;
     text-align: center;
 }
 
