@@ -1,19 +1,18 @@
-@charset "utf-8";
+@charset "UTF-8";
 
-body,
-html {
+body, html {
     padding: 0;
     margin: 0;
 }
 
 body {
-    font-family: 'Macondo', cursive;
+    font-family: 'Raleway', sans-serif;
 }
 
-a,
-a:hover {
+a, a:hover {
     text-decoration: none;
 }
+
 
 .container-fluid {
     padding: 0;
@@ -26,20 +25,18 @@ a:hover {
     box-shadow: none;
     background-color: #04BAD8;
 }
-
-
 .header {
-    background-color: #BCB6BD;
-    height: 70px;
+    background-color: #ff0000;
+    height: 70 px;
     line-height: 70px;
 }
 
 .logo {
-    color: #F2FF8D;
+    color: #ffffff;
     text-transform: uppercase;
     font-weight: bold;
-    letter-spacing: 2px;
-    float: left;
+    letter-spacing: 1px;
+    float: Copyright (c) 2022 Copyright Holder All Rights Reserved
 }
 
 .menu {
@@ -47,12 +44,12 @@ a:hover {
 }
 
 .menu a {
-    color: #CAE6E9;
+    color: #ffffff;
     margin-right: 20px;
 }
 
 .menu a:hover {
-    color: #A4F2AC;
+    color: #000000;
 }
 
 
@@ -61,74 +58,81 @@ a:hover {
     max-width: 100%;
 }
 
+
 .ban {
-    width: 50%;
-    max-width: 50%;
-    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
 }
 
 .ban img {
-    width: 100%;
-    max-width: 100%;
+      width: 100%;
+      max-width: 100%;
 }
+
 
 .inner-banner {
     position: absolute;
-    top: 20%;
-    right: 20%;
+    top: 50%;
     width: 100%;
-    text-align: right;
+    text-align: center;
 }
 
-.inner-banner {
-    text-shadow: 1px 1px 20px;
+.inner-banner h1 {
+    color: #ff0000;
+    text-shadow: 1px 1px 20px #ffffff;
+}
+
+.inner-banner .btn-custom {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+.inner-banner .btn-custom:hover {
+    background-color: #000000;
 }
 
 
 #about {
-
-    color: #FF99C1;
     text-align: center;
+    padding-top: 10%;
 }
 
-.about article {
-    background-color: #F4E2DE;
-    margin-top: 5%;
-    margin-bottom: 5%;
+.about article{
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .about article h2 {
     text-align: center;
 }
 
-.portfolio {
-    background-color: #B599C2;
-    height: 500px;
 
+.portfolio {
+    background-color: #a7a7a7;
+    height: 100%;
 }
 
 #portfolio {
-    color: #F2FF8D;
     text-align: center;
 }
 
-.portfolio .item-porfolio {
-    height: 200px;
-    background-color: #ffffff;
+.portfolio .grid-item {
+    height: 280px;
+    background-color: #ff0000;
+    display: flex;
 }
 
-
-.contact {
-    background-color: #CAE6E9;
-}
-
-#contact {
-    color: #BF9EEC;
-    text-align: center;
-}
-
-.formulairecontact {
-    width: 500px;
+.footer {
+    background-color: #000000;
     display: block;
     margin: 0 auto;
 }
+
+#contact {
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
