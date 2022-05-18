@@ -1,45 +1,45 @@
-@charset "UTF-8";
+@charset "utf-8";
 
-body, html {
+body,
+html {
     padding: 0;
     margin: 0;
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Macondo', cursive;
 }
 
-a, a:hover {
+a,
+a:hover {
     text-decoration: none;
 }
-
 
 .container-fluid {
     padding: 0;
 }
 
-
-
 .separator {
-    height: 3px;
-    width: 5%;
+    height: 10px;
+    width: 100%;
     border: none;
     box-shadow: none;
-    background-color: #ff0000;
+    background-color: #04BAD8;
 }
 
+
 .header {
-    background-color: #ff0000;
-    height: 70 px;
+    background-color: #BCB6BD;
+    height: 70px;
     line-height: 70px;
 }
 
 .logo {
-    color: #ffffff;
+    color: #F2FF8D;
     text-transform: uppercase;
     font-weight: bold;
-    letter-spacing: 1px;
-    float: Copyright (c) 2022 Copyright Holder All Rights Reserved
+    letter-spacing: 2px;
+    float: left;
 }
 
 .menu {
@@ -47,12 +47,12 @@ a, a:hover {
 }
 
 .menu a {
-    color: #ffffff;
+    color: #CAE6E9;
     margin-right: 20px;
 }
 
 .menu a:hover {
-    color: #000000;
+    color: #A4F2AC;
 }
 
 
@@ -61,82 +61,69 @@ a, a:hover {
     max-width: 100%;
 }
 
-
 .ban {
     width: 100%;
     max-width: 100%;
-    position: relative;
+    position: absolute;
 }
 
 .ban img {
-      width: 100%;
-      max-width: 100%;
+    width: 100%;
+    max-width: 100%;
 }
-
 
 .inner-banner {
     position: absolute;
-    top: 50%;
+    top: 25%;
+    right: 20%;
     width: 100%;
-    text-align: center;
+    text-align: right;
 }
 
-.inner-banner h1 {
-    color: #ff0000;
-    text-shadow: 1px 1px 20px #ffffff;
-}
-
-.inner-banner .btn-custom {
-    background-color: #ff0000;
-    color: #ffffff;
-}
-
-.inner-banner .btn-custom:hover {
-    background-color: #000000;
+.inner-banner {
+    text-shadow: 1px 1px 20px;
 }
 
 
 #about {
+
+    color: #FF99C1;
     text-align: center;
-    padding-top: 10%;
 }
 
-.about article{
-    margin-top: 10%;
-    margin-bottom: 10%;
+.about article {
+    background-color: #F4E2DE;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .about article h2 {
     text-align: center;
 }
 
-
 .portfolio {
-    background-color: #a7a7a7;
-    height: 100%;
+    background-color: #B599C2;
+    height: 500px;
+
 }
 
 #portfolio {
+    color: #F2FF8D;
     text-align: center;
 }
 
-.portfolio .grid-item {
-    height: 280px;
-    background-color: #ff0000;
-    display: flex;
-}
 
-.footer {
-    background-color: #000000;
-    display: block;
-    margin: 0 auto;
+.contact {
+    background-color: #CAE6E9;
 }
 
 #contact {
-    color: #ffffff;
+    color: #BF9EEC;
     text-align: center;
 }
 
-
-
-
+.formulairecontact {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
