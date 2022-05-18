@@ -26,7 +26,7 @@ a, a:hover {
     background-color: #ff0000;
 }
 .header {
-    background-color: #ff0000;
+    background-color: #ffffff;
     height: 70 px;
     line-height: 70px;
 }
@@ -79,13 +79,13 @@ a, a:hover {
 }
 
 .inner-banner h1 {
-    color: #ff0000;
-    text-shadow: 1px 1px 20px #ffffff;
+    color: #ffffff;
+    text-shadow: 1px 1px 20px #000000;
 }
 
 .inner-banner .btn-custom {
-    background-color: #ff0000;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 .inner-banner .btn-custom:hover {
