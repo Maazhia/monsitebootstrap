@@ -112,6 +112,11 @@ a:hover {
     text-align: center;
 }
 
+.portfolio .item-porfolio {
+    height: 200px;
+    background-color: #ffffff;
+}
+
 
 .contact {
     background-color: #CAE6E9;
