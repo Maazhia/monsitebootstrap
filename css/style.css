@@ -53,27 +53,44 @@ a, a:hover {
 }
 
 
-#webcoderskull{
+.banner {
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.ban {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.ban img {
+      width: 100%;
+      max-width: 100%;
+}
+
+
+.inner-banner {
     position: absolute;
-    left: 0;
-    top: 50%;
-    padding: 0 20px;
+    top: 280px;
     width: 100%;
     text-align: center;
 }
 
-canvas{
-    height:100vh;
-    background-color:#16a085;
+.inner-banner h1 {
+    color: #ffffff;
+    text-shadow: 1px 1px 20px #000000;
 }
-#webcoderskull h1{
-  letter-spacing: 5px;
-  font-size: 5rem;
-  font-family: 'Roboto', sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
+
+.inner-banner .btn-contact {
+    background-color: #ffffff;
+    color: #ff0000;
 }
-  
+
+.inner-banner .btn-contact:hover {
+    background-color: #ff0000;
+}
 
 
 #about {
