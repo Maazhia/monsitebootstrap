@@ -59,39 +59,46 @@ a, a:hover {
 }
 
 
-.ban {
-    width: 100%;
-    max-width: 100%;
+section {
     position: relative;
-}
-
-.ban img {
-      width: 100%;
-      max-width: 100%;
-}
-
-
-.inner-banner {
-    position: absolute;
-    top: 280px;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
     width: 100%;
-    text-align: center;
-}
-
-.inner-banner h1 {
-    color: #ffffff;
-    text-shadow: 1px 1px 20px #000000;
-}
-
-.inner-banner .btn-contact {
-    background-color: #ffffff;
-    color: #ff0000;
-}
-
-.inner-banner .btn-contact:hover {
-    background-color: #ff0000;
-}
-
+    overflow: hidden;
+  }
+  
+  section video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  section .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  section .overlay-wcs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  
 
 #about {
     text-align: center;
