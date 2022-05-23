@@ -303,16 +303,6 @@ h2{
     cursor: pointer;
   }
 
-  .background-image {
-    background-attachment:fixed;
-	background-size:cover;
-	background-position:100% 100%;
-	background-repeat:no-repeat;
-	padding:0px 0;
-	position:relative;
-	height:100vh;
-  }
-
 
 
 /*MOI */
