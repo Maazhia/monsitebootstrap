@@ -53,45 +53,45 @@ a, a:hover {
 }
 
 
-.section {
-    position: relative;
-    background-color: black;
-    height: 75vh;
-    min-height: 25rem;
+.banner {
     width: 100%;
-    overflow: hidden;
-  }
-  
-  .section video {
-    position: absolute;
-    top: 100%;
-    left: 100%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: 0;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-  }
-  
-  .section .container {
-    position: relative;
-    z-index: 2;
-  }
-  
-  .section .overlay-wcs {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
+    max-width: 100%;
+}
+
+
+.ban {
     width: 100%;
-    background-color: black;
-    opacity: 0.5;
-    z-index: 1;
-  }
+    max-width: 100%;
+    position: relative;
+}
+
+.ban img {
+      width: 100%;
+      max-width: 100%;
+}
+
+
+.inner-banner {
+    position: absolute;
+    top: 280px;
+    width: 100%;
+    text-align: center;
+}
+
+.inner-banner h1 {
+    color: #ffffff;
+    text-shadow: 1px 1px 20px #000000;
+}
+
+.inner-banner .btn-contact {
+    background-color: #ffffff;
+    color: #ff0000;
+}
+
+.inner-banner .btn-contact:hover {
+    background-color: #ff0000;
+}
+
 
 #about {
     text-align: center;
