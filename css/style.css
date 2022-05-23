@@ -88,7 +88,7 @@ section {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     opacity: 0.5;
     z-index: 1;
   }
