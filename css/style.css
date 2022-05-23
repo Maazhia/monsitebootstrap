@@ -230,78 +230,91 @@ h2{
   }
 
 
-  .get-in-touch {
-    max-width: 800px;
-    margin: 50px auto;
-    position: relative;
-  
-  }
-  .get-in-touch .title {
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 3.2em;
-    line-height: 48px;
-    padding-bottom: 48px;
-       color: #5543ca;
-      background: #5543ca;
-      background: -moz-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
-      background: -webkit-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
-      background: linear-gradient(to right,#f4524d  0%,#5543ca  100%) !important;
-      ---webkit-background-clip: text !important;
-      -webkit-text-fill-color: transparent !important;
-  }
-  
-  .contact-form .form-field {
-    position: relative;
-    margin: 32px 0;
-  }
-  .contact-form .input-text {
-    display: block;
-    width: 100%;
-    height: 36px;
-    border-width: 0 0 2px 0;
-    border-color: #5543ca;
-    font-size: 18px;
-    line-height: 26px;
+  .contact {
+    padding-bottom: 100px;
+}
+.contact .heading {
+    margin-bottom: 50px;
+}
+.contact .heading h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #404356;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.contact .heading h2 span {
+    color: #7035cf;
+    font-weight: 300;
+}
+.contact .heading p {
+    font-size: 14px;
     font-weight: 400;
-  }
-  .contact-form .input-text:focus {
-    outline: none;
-  }
-  .contact-form .input-text:focus + .label,
-  .contact-form .input-text.not-empty + .label {
-    -webkit-transform: translateY(-24px);
-            transform: translateY(-24px);
-  }
-  .contact-form .label {
-    position: absolute;
-    left: 20px;
-    bottom: 11px;
-    font-size: 18px;
+    color: #525f7f;
     line-height: 26px;
-    font-weight: 400;
-    color: #5543ca;
-    cursor: text;
-    transition: -webkit-transform .2s ease-in-out;
-    transition: transform .2s ease-in-out;
-    transition: transform .2s ease-in-out, 
-    -webkit-transform .2s ease-in-out;
-  }
-  .contact-form .submit-btn {
-    display: inline-block;
-    background-color: #000;
-     background-image: linear-gradient(125deg,#a72879,#064497);
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 16px;
-    padding: 8px 16px;
-    border: none;
-    width:200px;
-    cursor: pointer;
-  }
+    margin: 0;
+}
+.contact .main {
+    background: #ffffff;
+    box-shadow: 1px 1px 20px 0 rgba(0,0,0,0.08);
+}
+.contact .main h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #4a545e;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.contact .form-control {
+    padding: 25px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    background: #f8f8f9;
+    border: 0;
+    border-radius: 5px;
+}
+.contact button.btn {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    background: linear-gradient(to right, rgba(114,96,206,1) 0%, rgba(70,96,241,1) 100%);
+    color: #ffffff;
+}
 
+.contact .main .left {
+    padding: 40px 60px;
+}
+.contact .main .right {
+    background:#5d5db7;
+    background-size: cover;
+    padding: 40px;
+    color: #ffffff;
+    height: 100%;
+}
+.contact .main .right h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.contact .main .right .info {
+    margin-bottom: 35px;
+}
+.contact .main .right .info i {
+    font-size: 25px;
+    color: #ffffff;
+}
+.contact .main .right .info span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 15px;
+}
+.contact .main .right .social a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #ffffff;
+    margin-right: 20px;
+}
 
 
 /*MOI */
