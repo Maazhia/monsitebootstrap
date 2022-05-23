@@ -251,12 +251,6 @@ h2{
       --webkit-background-clip: text !important;
       -webkit-text-fill-color: transparent !important;
       background-attachment:fixed;
-	background-size:cover;
-	background-position:100% 100%;
-	background-repeat:no-repeat;
-	padding:0px 0;
-	position:relative;
-	height:100vh;
   }
   
   .contact-form .form-field {
@@ -307,6 +301,16 @@ h2{
     border: none;
     width:200px;
     cursor: pointer;
+  }
+
+  .background-image {
+    background-attachment:fixed;
+	background-size:cover;
+	background-position:100% 100%;
+	background-repeat:no-repeat;
+	padding:0px 0;
+	position:relative;
+	height:100vh;
   }
 
 
