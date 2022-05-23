@@ -230,90 +230,84 @@ h2{
   }
 
 
-  .contact {
-    padding-bottom: 100px;
+  .form-section{
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:100% 100%;
+	background-repeat:no-repeat;
+	padding:0px 0;
+	position:relative;
+	height:100vh;
 }
-.contact .heading {
-    margin-bottom: 50px;
-}
-.contact .heading h2 {
-    font-size: 30px;
-    font-weight: 700;
-    color: #404356;
-    margin: 0;
-    margin-bottom: 15px;
-}
-.contact .heading h2 span {
-    color: #7035cf;
-    font-weight: 300;
-}
-.contact .heading p {
-    font-size: 14px;
-    font-weight: 400;
-    color: #525f7f;
-    line-height: 26px;
-    margin: 0;
-}
-.contact .main {
-    background: #ffffff;
-    box-shadow: 1px 1px 20px 0 rgba(0,0,0,0.08);
-}
-.contact .main h3 {
-    font-size: 20px;
-    font-weight: 500;
-    color: #4a545e;
-    margin: 0;
-    margin-bottom: 20px;
-}
-.contact .form-control {
-    padding: 25px;
-    font-size: 13px;
-    margin-bottom: 10px;
-    background: #f8f8f9;
-    border: 0;
-    border-radius: 5px;
-}
-.contact button.btn {
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 15px;
-    background: linear-gradient(to right, rgba(114,96,206,1) 0%, rgba(70,96,241,1) 100%);
-    color: #ffffff;
-}
-
-.contact .main .left {
-    padding: 40px 60px;
-}
-.contact .main .right {
-    background:#5d5db7;
-    background-size: cover;
-    padding: 40px;
-    color: #ffffff;
+.overlay {
+    background: #00000026;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
     height: 100%;
 }
-.contact .main .right h4 {
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 30px;
+.custom-button {
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.8s ease;
+    background: #4DA0B0;
+	background: -webkit-linear-gradient(to right, #D39D38, #4DA0B0);
+    background: linear-gradient(to right, #FF5722, #3f51b5);
 }
-.contact .main .right .info {
-    margin-bottom: 35px;
+
+.custom-button:hover, .custom-button:focus{
+	transition: 0.8s ease;
+	 letter-spacing: 3px;
+	 background: -webkit-linear-gradient(to right, #D39D38, #4DA0B0);
+    background: linear-gradient(to right, #FF5722, #3f51b5);
 }
-.contact .main .right .info i {
+.form-box-inner .form-control {
+    background: #ffffff8a;
+    border: 2px solid #000000;
+    box-shadow: none;
+}
+.form-box-inner .form-control:focus {
+    outline:none;
+	box-shadow:none;
+}
+.map-box iframe {
+    width: 100%;
+    height: 357px;
+}
+.map-box {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.heading-title{
+	text-shadow: 2px 3px 0 #101010, 1px 4px 0 rgba(0,0,0,0.15);
+    text-align: center;
+    margin: 0 auto;
+    padding: 60px;
+    font-size: 42px;
+}
+.contact{
+	text-align:center;
+}
+.contact-box{
+	 background: #ffffff8a;
+	 height: 365px;
+	 padding:15px;
+}
+.contact-box ul li{
+	margin-bottom:0px;
+	padding:8px;
+}
+.contact i {
     font-size: 25px;
-    color: #ffffff;
+    color: #f65728;
 }
-.contact .main .right .info span {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    margin-left: 15px;
-}
-.contact .main .right .social a {
-    text-decoration: none;
-    font-size: 30px;
-    color: #ffffff;
-    margin-right: 20px;
+.form-box-inner {
+    background: #ffffff8a;
+    padding: 15px;
 }
 
 /*MOI */
