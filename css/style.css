@@ -234,13 +234,7 @@ h2{
     max-width: 800px;
     margin: 50px auto;
     position: relative;
-    background-attachment:fixed;
-	background-size:cover;
-	background-position:100% 100%;
-	background-repeat:no-repeat;
-	padding:0px 0;
-	position:relative;
-	height:100vh;
+    
   
   }
   .get-in-touch .title {
@@ -257,7 +251,6 @@ h2{
       background: linear-gradient(to right,#f4524d  0%,#5543ca  100%) !important;
       --webkit-background-clip: text !important;
       -webkit-text-fill-color: transparent !important;
-      background-attachment:fixed;
   }
   
   .contact-form .form-field {
