@@ -55,7 +55,7 @@ a, a:hover {
 
 section {
     position: relative;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     height: 75vh;
     min-height: 25rem;
     width: 100%;
